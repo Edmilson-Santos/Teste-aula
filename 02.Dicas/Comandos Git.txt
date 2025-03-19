@@ -9,8 +9,8 @@ git init
 touch README.md
 git add README.md
 git status
-git commit -m "Primeiro Commit"
 git add .
+git commit -m "Primeiro Commit"
 git branch -M main
 git remote add origin https://github.com/seu link do seu repo GitHub
 
