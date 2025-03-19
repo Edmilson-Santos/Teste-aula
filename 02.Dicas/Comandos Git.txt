@@ -1,0 +1,49 @@
+
+Comandos Git
+https://comandosgit.github.io/
+
+
+
+echo "# asdasd" >> README.md
+git init
+touch README.md
+git add README.md
+git status
+git commit -m "Primeiro Commit"
+git add .
+git branch -M main
+git remote add origin https://github.com/seu link do seu repo GitHub
+
+git push -u origin main
+
+
+
+push - Publicar ja esistente
+git init
+git status
+git add .
+git commit -m 'teste-comando-editado'
+git remote add origin https://github.com/Seu Link
+git branch -M main
+git push -u origin main
+
+
+outras op‡äes do ADD.
+git add nome_do_diretorio/
+git add *.txt
+
+Resumo das op‡äes principais:
+git add .: Adiciona todos os arquivos do diret¢rio atual (modificados e novos).
+git add nome_do_arquivo: Adiciona um arquivo espec¡fico.
+git add -u: Adiciona apenas arquivos j  rastreados que foram modificados.
+git add -A ou git add --all: Adiciona todos os arquivos (novos e modificados).
+git add -p: Adiciona partes de arquivos (modo interativo).
+git add -i: Modo interativo para escolher altera‡äes espec¡ficas.
+
+
+
+Deletar reposit¢rio local
+rm -rf .git
+
+
+Isso excluir  o reposit¢rio Git e todo o hist¢rico associado, mas manter  os arquivos do projeto na pasta.
