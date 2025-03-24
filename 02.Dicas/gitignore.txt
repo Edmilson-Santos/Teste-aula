@@ -1,0 +1,20 @@
+
+https://git-scm.com/docs/gitignore/pt_BR
+
+
+
+
+Removenmdo casch caso erro
+git rm -r --cached .
+git add .
+git commit -m "Atualizando arquivo .gitignore"
+git push
+
+
+
+
+git rm --cached -r *.txt
+git rm --cached -r 02.Dicas/*.txt
+git commit -m "Removendo arquivos .txt do rastreamento"
+git push
+
