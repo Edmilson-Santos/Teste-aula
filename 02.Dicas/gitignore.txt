@@ -2,6 +2,12 @@
 https://git-scm.com/docs/gitignore/pt_BR
 
 
+Sintaxe Exemplos:
+E:\Cursos - Novos\SQL Server - Novas Aulas\Material Para Download\Projeto Aula VSCode\01.Aula\query1.sql
+01.Aula\query1.sql
+02.Dicas
+02.Dicas\*
+*.txt
 
 
 Removenmdo casch caso erro
@@ -13,8 +19,10 @@ git push
 
 
 
-git rm --cached -r *.txt
-git rm --cached -r 02.Dicas/*.txt
+git rm -r --cached "E:\Cursos - Novos\SQL Server - Novas Aulas\Material Para Download\Projeto Aula VSCode\01.Aula\query1.sql"
+git rm -r --cached "E:\Cursos - Novos\SQL Server - Novas Aulas\Material Para Download\Projeto Aula VSCode\02.Dicas"
+git rm -r --cached *.txt
+
 git commit -m "Removendo arquivos .txt do rastreamento"
 git push
 
