@@ -45,3 +45,22 @@ rm -rf .git
 
 
 Isso excluir  o reposit¢rio Git e todo o hist¢rico associado, mas manter  os arquivos do projeto na pasta.
+
+
+
+
+Comandos git Clone
+
+
+Link de Documenta‡Æo
+https://git-scm.com/docs/git-clone/pt_BR
+
+
+git clone + URL do repo
+
+Clonar com Autentica‡Æo via HTTPS (Usu rio e Token Pessoal)
+Se estiver usando HTTPS, vocˆ precisar  de um Personal Access Token (PAT) no lugar da senha.
+
+Criar token de acesso
+git clone https://meu-usuario:meu-token@github.com/meu-usuario/meu-repo.git
+
